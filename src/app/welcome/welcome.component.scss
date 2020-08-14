@@ -1,0 +1,40 @@
+.main {
+  min-height: 96vh;
+  &-row1 {
+    min-height: 32vh;
+  }
+  &-row2 {
+    min-height: 32vh;
+
+    &__text2 {
+      color: white;
+      font-size: 4rem;
+    }
+  }
+  &-row3 {
+    min-height: 32vh;
+  }
+}
+.main-bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  z-index: -1;
+
+  &__content {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.main2 {
+  min-height: 100vh;
+  background-color: #f7f7f7;
+}
+
+.main3 {
+  min-height: 50vh;
+  background-color: #57606f;
+}
