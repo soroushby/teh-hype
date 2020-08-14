@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "teh-hype"
+    }
+  },
+  "defaultProject": "teh-hype",
+  "cli": {
+    "analytics": "4feded31-aaf9-45c3-985c-e59b9844fb8a"
+  }
 }
